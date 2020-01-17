@@ -24,6 +24,10 @@ How to implement?
 
 ​	By  recursive strategy:
 
-​	    permutation("abc") = "a" + permutation("bc")
-                           "b" + permutation("ac")
-                           "c" + permutation("ab")
+​	    permutation("abc") :
+
+​		－"a" + permutation("bc")  
+
+​		－"b" + permutation("ac")
+
+​		－"c" + permutation("ab")
