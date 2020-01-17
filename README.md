@@ -24,5 +24,6 @@ How to implement?
 
 ​	By  recursive strategy:
 
-​	&emsp;&emsp; $$ permutation("abc") = \left\{  \begin{array}{c} a+permutation("bc") \\  b+permutation("ac") \\  c+permutation("ab") \end{array} \right.  $$ 
-
+​	    permutation("abc") = "a" + permutation("bc")
+                           "b" + permutation("ac")
+                           "c" + permutation("ab")
