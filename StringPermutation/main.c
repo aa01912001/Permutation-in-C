@@ -5,7 +5,7 @@ Object: Print all the permutations of String entered by user.
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // strlen()
+#include <string.h>
 
 void swap(char [], int, int); // Swap two chars in str array.
 void swap(char str[], int i, int j){
@@ -15,7 +15,7 @@ void swap(char str[], int i, int j){
     str[i] = temp;
 }
 
-void perm(char [], int, int);
+void perm(char [], int, int); // String Permutation by recursive strategy.
 void perm(char str[], int index, int strLength){
     int i; // indicator
     if(index == strLength){
@@ -31,6 +31,7 @@ void perm(char str[], int index, int strLength){
         }
     }
 }
+
 int main()
 {
     char str[100];
